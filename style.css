@@ -1,0 +1,49 @@
+
+body {
+    background-color: aliceblue;
+}
+nav {
+    gap: 50px;
+    color: black;
+    margin: auto;
+    background-color: rgb(167, 167, 167);
+}
+.skip{
+    position: absolute;
+    margin-top: -40px;
+}
+li {
+    display: inline-block;
+}
+a {
+    align-items: center;
+    text-decoration: none;
+    display: inline;
+    color: white;
+    margin: 0px 20px 0px 20px;
+}
+h2, h3 {
+    text-align: center;
+}
+main{
+    overflow: hidden;
+}
+.photo{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.photo * {
+    height: 100%;
+    border: solid 10px white;
+}
+
+img{
+    width: 100%;
+}
+
